@@ -142,27 +142,19 @@ const Custom = () => {
     Main Course - Non Veg: ${selected[30]}
     `
     const subject = 'Data from Custom Menu'
-    const options = {
-      method: 'POST',
-      headers: {
-        accept: 'application/json',
-        'content-type': 'application/json',
-        'api-key': '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'
-      },
-      body: JSON.stringify({
-        sender: { name: name, email: email },
-        to: [{ email: 'jainsamarth549@gmail.com' }],
-        params: { name: name, email: email, phone: phone, peopleCount: peopleCount },
-        subject: subject,
-        textContent: `${emailMsg}`,
-        htmlContent: `${emailMsg}`
-      })
-    };
 
-    fetch('https://api.sendinblue.com/v3/smtp/email', options)
-      .then(response => response.json())
-      .then(response => console.log(response))
-      .catch(err => console.error(err));
+    let data = { name, email, phone, emailMsg, subject }
+
+    let gmail = await fetch('/api/sendinblue', {
+      method: 'POST', // or 'PUT'
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+    let gmailres = await gmail.json()
+    console.log(gmailres)
+    
 
     var whatsappURL = "https://wa.me/918874247420?text="
       + "*Name :* " + name + "%0a"
@@ -438,10 +430,10 @@ const Custom = () => {
                 }
               </div>
               <div className="flex items-center justify-center md:gap-x-12 md:flex-row flex-col gap-y-6">
-                <button style={{ width: "9.5rem" }} className='send-btn'>
+                <button className='send-btn'>
                   <div className="svg-wrapper-1">
                     <div className="svg-wrapper">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
                         <path fill="none" d="M0 0h24v24H0z"></path>
                         <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
                       </svg>

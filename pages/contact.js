@@ -57,27 +57,17 @@ const Contact = () => {
     `
     const subject = 'Data from Contact Form'
 
-    const options = {
-      method: 'POST',
-      headers: {
-        accept: 'application/json',
-        'content-type': 'application/json',
-        'api-key': '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'
-      },
-      body: JSON.stringify({
-        sender: { name: name, email: email },
-        to: [{ email: 'jainsamarth549@gmail.com' }],
-        params: { name: name, email: email, phone: phone, message: message },
-        subject: subject,
-        textContent: `${emailMsg}`,
-        htmlContent: `${emailMsg}`
-      })
-    };
+    let data = { name, email, phone, emailMsg, subject }
 
-    fetch('https://api.sendinblue.com/v3/smtp/email', options)
-      .then(response => response.json())
-      .then(response => console.log(response))
-      .catch(err => console.error(err));
+    let gmail = await fetch('/api/sendinblue', {
+      method: 'POST', // or 'PUT'
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+    let gmailres = await gmail.json()
+    console.log(gmailres)
 
     var whatsappURL = "https://wa.me/918874247420?text="
       + "*Name :* " + name + "%0a"
