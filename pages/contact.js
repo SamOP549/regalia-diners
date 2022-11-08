@@ -58,7 +58,7 @@ const Contact = () => {
     const subject = 'Data from Contact Form'
     let data = { emailMsg, subject }
 
-    let g = await fetch(`${process.env.NEXT_PUBLIC_HOST}/api/gmail`, {
+    let g = await fetch(`/api/gmail`, {
       method: 'POST', // or 'PUT'
       headers: {
         'Content-Type': 'application/json',
