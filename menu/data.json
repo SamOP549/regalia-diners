@@ -1,0 +1,2402 @@
+{
+    "Chinese": {
+        "title": "Chinese",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Veg. Chowmien",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Fried Rice",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Chilly Paneer",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Veg Machurian",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Paneer Manchurian",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Veg Momos",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Veg Chilly Momos",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Paneer Momos",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Chilly Cheese",
+                "isSelected": false
+            },
+            {
+                "id": 10,
+                "dish": "Momos",
+                "isSelected": false
+            },
+            {
+                "id": 11,
+                "dish": "Burger",
+                "isSelected": false
+            }
+        ]
+    },
+    "Chilla": {
+        "title": "Chilla",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Moong Dal Chilla",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Stuffed Moong Dal Chilla",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Besan Chilla",
+                "isSelected": false
+            }
+        ]
+    },
+    "Lucknowi Chat": {
+        "title": "Lucknowi Chat",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Aaloo Tikki",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Tawa Matar Tikki",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Sonth Ki Tikki",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Pani Batashey",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Dahi Chatni Batshey",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Basket Chat",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Papdi Chat",
+                "isSelected": false
+            }
+        ]
+    },
+    "South Indian": {
+        "title": "South Indian",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Plain Dosa",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Masala Dosa",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Paneer Masala Dosa",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Sambhar Bada",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Idli Sambhar",
+                "isSelected": false
+            }
+        ]
+    },
+    "Tawa Sabzi Indian": {
+        "title": "Tawa Sabzi Indian",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Karela",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Baigan",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Tamatar",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Bhindi",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Shimla Mirch",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Parwal",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Ghuinyya",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Aaloo",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Kathal",
+                "isSelected": false
+            }
+        ]
+    },
+    "American Tawa": {
+        "title": "American Tawa",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Mushroom",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Babycorn",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Shimla Mirch Lal & Yellow",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Fresh Paneer",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Brocolli",
+                "isSelected": false
+            }
+        ]
+    },
+    "Hot Tawa Chat": {
+        "title": "Hot Tawa Chat",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Aloo Fry Chat",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Kachalu Chat Matar",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Paneer Chat",
+                "isSelected": false
+            }
+        ]
+    },
+    "Pulses(Dal)": {
+        "title": "Pulses(Dal)",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Arhar Fry",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Urad Fry",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Navratna",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Maharani",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Rajma Masala",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Chana Masala",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Pachmeli",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Moong",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Muradabadi(Makkhan)",
+                "isSelected": false
+            },
+            {
+                "id": 10,
+                "dish": "Makhani",
+                "isSelected": false
+            }
+        ]
+    },
+    "Kadhi": {
+        "title": "Kadhi",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Besan Pakodi Kadhi",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Matar Aalu Kadhi",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Sindhi Kadhi",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Gatte Wali(Rajasthani) Kadhi",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Moong Ki Pakodi Kadhi",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Choti Pakodi Kadhi",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Mixed Kadhi",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Mushroom Kadhi",
+                "isSelected": false
+            }
+        ]
+    },
+    "Veggies Gravy": {
+        "title": "Veggies Gravy",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Shahi Paneer",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Kesariya Paneer",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Kaju Paneer Masala",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Paneer Tikka Masala",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Kaleji Paneer",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Matar Paneer",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Makhana Matar Paneer",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Palak Paneer",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Badshah Paneer",
+                "isSelected": false
+            },
+            {
+                "id": 10,
+                "dish": "Nargis Paneer",
+                "isSelected": false
+            },
+            {
+                "id": 11,
+                "dish": "Paneer do Pyaza",
+                "isSelected": false
+            },
+            {
+                "id": 12,
+                "dish": "Mushroom Paneer",
+                "isSelected": false
+            },
+            {
+                "id": 13,
+                "dish": "Paneer Masala",
+                "isSelected": false
+            },
+            {
+                "id": 14,
+                "dish": "Kadhai Paneer",
+                "isSelected": false
+            },
+            {
+                "id": 15,
+                "dish": "Paneer Butter Masala",
+                "isSelected": false
+            },
+            {
+                "id": 16,
+                "dish": "Paneer Safed Gravy",
+                "isSelected": false
+            },
+            {
+                "id": 17,
+                "dish": "Paneer Pasanda",
+                "isSelected": false
+            },
+            {
+                "id": 18,
+                "dish": "Matar Mushroom",
+                "isSelected": false
+            },
+            {
+                "id": 19,
+                "dish": "Malai Kofta",
+                "isSelected": false
+            },
+            {
+                "id": 20,
+                "dish": "Kaju Kofta",
+                "isSelected": false
+            },
+            {
+                "id": 21,
+                "dish": "Vegetable Kofta",
+                "isSelected": false
+            },
+            {
+                "id": 22,
+                "dish": "Aaloo Kofta",
+                "isSelected": false
+            },
+            {
+                "id": 23,
+                "dish": "Soyabean Kofta",
+                "isSelected": false
+            },
+            {
+                "id": 24,
+                "dish": "Navratna Kofta",
+                "isSelected": false
+            },
+            {
+                "id": 25,
+                "dish": "Nargis Kofta",
+                "isSelected": false
+            },
+            {
+                "id": 26,
+                "dish": "Lauki Kofta",
+                "isSelected": false
+            },
+            {
+                "id": 27,
+                "dish": "Shahi Kofta",
+                "isSelected": false
+            },
+            {
+                "id": 28,
+                "dish": "Chinese Kofta",
+                "isSelected": false
+            },
+            {
+                "id": 29,
+                "dish": "Mix Kofta",
+                "isSelected": false
+            },
+            {
+                "id": 30,
+                "dish": "Kofta Chaap",
+                "isSelected": false
+            },
+            {
+                "id": 31,
+                "dish": "Matar Malai Methi",
+                "isSelected": false
+            },
+            {
+                "id": 32,
+                "dish": "Palak Corn",
+                "isSelected": false
+            },
+            {
+                "id": 33,
+                "dish": "Mushroom Kofta",
+                "isSelected": false
+            },
+            {
+                "id": 34,
+                "dish": "Shahi Korma",
+                "isSelected": false
+            },
+            {
+                "id": 35,
+                "dish": "Matar Mushroom Kaju",
+                "isSelected": false
+            },
+            {
+                "id": 36,
+                "dish": "Kaju Mushroom",
+                "isSelected": false
+            },
+            {
+                "id": 37,
+                "dish": "Palak Chola",
+                "isSelected": false
+            },
+            {
+                "id": 38,
+                "dish": "Palak Kofta",
+                "isSelected": false
+            },
+            {
+                "id": 39,
+                "dish": "Matar Kofta",
+                "isSelected": false
+            },
+            {
+                "id": 40,
+                "dish": "Lazeez Kofta",
+                "isSelected": false
+            },
+            {
+                "id": 41,
+                "dish": "Navratna Korma",
+                "isSelected": false
+            },
+            {
+                "id": 42,
+                "dish": "Nilgiri Korma",
+                "isSelected": false
+            },
+            {
+                "id": 43,
+                "dish": "Keema Matar",
+                "isSelected": false
+            },
+            {
+                "id": 44,
+                "dish": "Khoya Matar Makhana Kaju",
+                "isSelected": false
+            },
+            {
+                "id": 45,
+                "dish": "Cheese Butter Masala",
+                "isSelected": false
+            },
+            {
+                "id": 46,
+                "dish": "Chena Goli Masala",
+                "isSelected": false
+            },
+            {
+                "id": 47,
+                "dish": "Dum Aaloo",
+                "isSelected": false
+            },
+            {
+                "id": 48,
+                "dish": "Laung Aaloo",
+                "isSelected": false
+            },
+            {
+                "id": 49,
+                "dish": "Aaloo Kashmiri Stuffed",
+                "isSelected": false
+            },
+            {
+                "id": 50,
+                "dish": "Aaloo Banarsi",
+                "isSelected": false
+            },
+            {
+                "id": 51,
+                "dish": "Raseele Rajma",
+                "isSelected": false
+            },
+            {
+                "id": 52,
+                "dish": "Chola Masala",
+                "isSelected": false
+            }
+        ]
+    },
+    "Veggies Dry": {
+        "title": "Veggies Dry",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Aaloo Gobhi",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Aaloo Matar",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Chat Aaloo",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Banarsi Aaloo",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Jeera Aaloo",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Aaloo Parwal",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Aaloo Palak",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Aaloo Gajar Matar",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Aaloo Methi Soya",
+                "isSelected": false
+            },
+            {
+                "id": 10,
+                "dish": "Aaloo with Mithi Chatni",
+                "isSelected": false
+            },
+            {
+                "id": 11,
+                "dish": "Laung Aaloo",
+                "isSelected": false
+            },
+            {
+                "id": 12,
+                "dish": "Aaloo Sem",
+                "isSelected": false
+            },
+            {
+                "id": 13,
+                "dish": "Aaloo Jeera",
+                "isSelected": false
+            },
+            {
+                "id": 14,
+                "dish": "Aaloo Dhaniya Ke",
+                "isSelected": false
+            },
+            {
+                "id": 15,
+                "dish": "Aaloo Kashmiri",
+                "isSelected": false
+            },
+            {
+                "id": 16,
+                "dish": "Stuffed Aaloo",
+                "isSelected": false
+            },
+            {
+                "id": 17,
+                "dish": "Aaloo Chat Masala",
+                "isSelected": false
+            },
+            {
+                "id": 18,
+                "dish": "Aaloo Shimla Mirch",
+                "isSelected": false
+            },
+            {
+                "id": 19,
+                "dish": "Allahabadi Aaloo",
+                "isSelected": false
+            },
+            {
+                "id": 20,
+                "dish": "Ghuinyya Fry",
+                "isSelected": false
+            },
+            {
+                "id": 21,
+                "dish": "Bhindi Fry",
+                "isSelected": false
+            },
+            {
+                "id": 22,
+                "dish": "Bhindi Gol Masale Wali",
+                "isSelected": false
+            },
+            {
+                "id": 23,
+                "dish": "Baigan ka Bharta",
+                "isSelected": false
+            },
+            {
+                "id": 24,
+                "dish": "Mix Veg",
+                "isSelected": false
+            },
+            {
+                "id": 25,
+                "dish": "Gobgi Musallam",
+                "isSelected": false
+            },
+            {
+                "id": 26,
+                "dish": "Punjabi Chola",
+                "isSelected": false
+            },
+            {
+                "id": 27,
+                "dish": "Matar Sukhi Kaju Lachcha",
+                "isSelected": false
+            },
+            {
+                "id": 28,
+                "dish": "Veg Kaleji",
+                "isSelected": false
+            },
+            {
+                "id": 29,
+                "dish": "Gajar Matar",
+                "isSelected": false
+            },
+            {
+                "id": 30,
+                "dish": "Kathal Masala",
+                "isSelected": false
+            },
+            {
+                "id": 31,
+                "dish": "Matar Keema",
+                "isSelected": false
+            },
+            {
+                "id": 32,
+                "dish": "Gobhi Keema",
+                "isSelected": false
+            },
+            {
+                "id": 33,
+                "dish": "Mushroom Taka Tak",
+                "isSelected": false
+            },
+            {
+                "id": 34,
+                "dish": "Kaju Mushroom",
+                "isSelected": false
+            },
+            {
+                "id": 35,
+                "dish": "Mushroom Makhana",
+                "isSelected": false
+            },
+            {
+                "id": 36,
+                "dish": "Shahi Gobhi",
+                "isSelected": false
+            }
+        ]
+    },
+    "Breads(Roti)": {
+        "title": "Breads(Roti)",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Plain Roti",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Tandoori Roti",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Lachcha Parantha",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Missi Roti",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Plain Naan",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Hari Naan",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Khandari Naan",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Pudina Naan",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Bathua Naan",
+                "isSelected": false
+            },
+            {
+                "id": 10,
+                "dish": "Stuffed Naan",
+                "isSelected": false
+            },
+            {
+                "id": 11,
+                "dish": "Tandoori Parantha",
+                "isSelected": false
+            },
+            {
+                "id": 12,
+                "dish": "Stuffed Peshwari Parantha",
+                "isSelected": false
+            },
+            {
+                "id": 13,
+                "dish": "Stuffed Kulche(Chole, Paneer, Aalu, Gobhi)",
+                "isSelected": false
+            }
+        ]
+    },
+    "Poori And Kachori": {
+        "title": "Poori And Kachori",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Plain Poori",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Pitti Poori",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Tirangi Poori",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Palak Poori",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Aalu Poori",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Bathua Poori",
+                "isSelected": false
+            }
+        ]
+    },
+    "Pulao": {
+        "title": "Pulao",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Steamed Rice",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Plain Pulao",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Matar Pulao",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Basmati Pulao",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Matar Kaju Paneer Pulao",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Jeera Pulao",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Vegetable Pulao",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Kesariya Pulao",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Mewa Pulao",
+                "isSelected": false
+            },
+            {
+                "id": 10,
+                "dish": "Kaju Pulao",
+                "isSelected": false
+            },
+            {
+                "id": 11,
+                "dish": "Vegetable Biryani(Kathal)",
+                "isSelected": false
+            },
+            {
+                "id": 12,
+                "dish": "Stuffed Peshwari Parantha",
+                "isSelected": false
+            },
+            {
+                "id": 13,
+                "dish": "Stuffed Kulche(Chole, Paneer, Aalu, Gobhi)",
+                "isSelected": false
+            }
+        ]
+    },
+    "Curd": {
+        "title": "Curd",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Plain Dahi",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Dahi Bada",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Dahi Pakoda",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Dahi Ke Aaloo",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Dahi Gujiya",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Dahi Besan Pakodi",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Lauki Raita",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Dahi Boondi Raita",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Mix Raita",
+                "isSelected": false
+            },
+            {
+                "id": 10,
+                "dish": "Dahi Mogra Raita",
+                "isSelected": false
+            },
+            {
+                "id": 11,
+                "dish": "Fruit Raita",
+                "isSelected": false
+            },
+            {
+                "id": 12,
+                "dish": "Pineapple Raita",
+                "isSelected": false
+            }
+        ]
+    },
+    "Salad": {
+        "title": "Salad",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Plain Salad",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Foundation Salad",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Russian Salad",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Decoration Salad",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Fruit Salad",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Kachumar Salad",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Ankurit Salad",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Macroni Salad",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Pineapple Showpiece",
+                "isSelected": false
+            },
+            {
+                "id": 10,
+                "dish": "Pumpkin Showpiece",
+                "isSelected": false
+            },
+            {
+                "id": 11,
+                "dish": "Grape Tree",
+                "isSelected": false
+            },
+            {
+                "id": 12,
+                "dish": "Pineapple Toothpick",
+                "isSelected": false
+            },
+            {
+                "id": 13,
+                "dish": "Lauki Ki Machli",
+                "isSelected": false
+            }
+        ]
+    },
+    "Sauces": {
+        "title": "Sauces",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Chilly Sauce",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Vegetable Sauce",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Navratna Meethi Chutney",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Khatti Chutney",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Mewa Chutney",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Nimbu Chutney",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Lehsun Chutney",
+                "isSelected": false
+            }
+        ]
+    },
+    "Parantha": {
+        "title": "Parantha",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Aaloo Parantha",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Pyaaz Parantha",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Mooli Parantha",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Gobhi Parantha",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Pudina Parantha",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Vegetable Parantha",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Mughlai Parantha",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Mughlai (Khoya Mewa) Parantha",
+                "isSelected": false
+            }
+        ]
+    },
+    "Kebab Parantha": {
+        "title": "Kebab Parantha",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Veg. Kebab",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Paneer Kebab",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Kathal Kebab",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Kela Kebab",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Parantha",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Rumali Roti",
+                "isSelected": false
+            }
+        ]
+    },
+    "Traditional": {
+        "title": "Traditional",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Baati Choka",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Gud Makkhan",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Sarso Ka Saag aur Makke Ki Roti",
+                "isSelected": false
+            }
+        ]
+    },
+    "Sweets": {
+        "title": "Sweets",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Gajar Ka Halwa",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Lauki Halwa",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Moong Dal Halwa",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Rice Kheer Mewe Wali",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Chena Kheer",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Raj Bhog",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Rasmalai",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Ras Madhuri",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Mitha Zarda",
+                "isSelected": false
+            },
+            {
+                "id": 10,
+                "dish": "Sponge Rasgulla",
+                "isSelected": false
+            },
+            {
+                "id": 11,
+                "dish": "Gulab Jamun",
+                "isSelected": false
+            },
+            {
+                "id": 12,
+                "dish": "Kala Jam",
+                "isSelected": false
+            },
+            {
+                "id": 13,
+                "dish": "Malai Ki Gilauri",
+                "isSelected": false
+            },
+            {
+                "id": 14,
+                "dish": "Rabdi",
+                "isSelected": false
+            },
+            {
+                "id": 15,
+                "dish": "Moong Dal Boondi",
+                "isSelected": false
+            },
+            {
+                "id": 16,
+                "dish": "Malai Pudi",
+                "isSelected": false
+            },
+            {
+                "id": 17,
+                "dish": "Cham Cham",
+                "isSelected": false
+            },
+            {
+                "id": 18,
+                "dish": "Imarti Rabdi",
+                "isSelected": false
+            },
+            {
+                "id": 19,
+                "dish": "Chandrakala",
+                "isSelected": false
+            },
+            {
+                "id": 20,
+                "dish": "Jalebi",
+                "isSelected": false
+            },
+            {
+                "id": 21,
+                "dish": "Kesariya Jalebi",
+                "isSelected": false
+            },
+            {
+                "id": 22,
+                "dish": "Rabdi Jalebi",
+                "isSelected": false
+            },
+            {
+                "id": 23,
+                "dish": "Kaaju Barfi",
+                "isSelected": false
+            },
+            {
+                "id": 24,
+                "dish": "Malai Roll",
+                "isSelected": false
+            },
+            {
+                "id": 25,
+                "dish": "Makhana Kheer",
+                "isSelected": false
+            },
+            {
+                "id": 26,
+                "dish": "Malai Cake",
+                "isSelected": false
+            }
+        ]
+    },
+    "Ice Creams": {
+        "title": "Ice Creams",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Butterscotch",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Vanilla",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Kulfi Faluda",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Blackcurrent",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Vanilla",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Strawberry",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Tootie Feootie",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Chocolate",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Sticks (Orange, Chocolate)",
+                "isSelected": false
+            },
+            {
+                "id": 10,
+                "dish": "Kulfi",
+                "isSelected": false
+            },
+            {
+                "id": 11,
+                "dish": "Icecream Bricks",
+                "isSelected": false
+            },
+            {
+                "id": 12,
+                "dish": "Icecream Sandwich",
+                "isSelected": false
+            },
+            {
+                "id": 13,
+                "dish": "Makkhan Malai",
+                "isSelected": false
+            },
+            {
+                "id": 14,
+                "dish": "Chip Chocolate",
+                "isSelected": false
+            },
+            {
+                "id": 15,
+                "dish": "Fruit Ice Cream Charkhi",
+                "isSelected": false
+            },
+            {
+                "id": 16,
+                "dish": "Icecream Kulfi Handi",
+                "isSelected": false
+            }
+        ]
+    },
+    "Milk": {
+        "title": "Milk",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Plain Hot Milk",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Hot Saffron Milk",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Hot Saffron Milk with Dry Fruits",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Chilled Saffron Milk with Dry Fruits",
+                "isSelected": false
+            }
+        ]
+    },
+    "Breakfast": {
+        "title": "Breakfast",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Chole",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Bhatoore",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Khasta",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Sindhi Khasta",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Aaloo Sabzi",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Palak Pakoda",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Gobhi Pakoda",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Mix Pakoda",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Paneer Pakoda",
+                "isSelected": false
+            },
+            {
+                "id": 10,
+                "dish": "Moong Dal Ka Halwa",
+                "isSelected": false
+            },
+            {
+                "id": 11,
+                "dish": "Suji Ka Halwa",
+                "isSelected": false
+            },
+            {
+                "id": 12,
+                "dish": "Dahi",
+                "isSelected": false
+            },
+            {
+                "id": 13,
+                "dish": "Jalebi",
+                "isSelected": false
+            },
+            {
+                "id": 14,
+                "dish": "Chai",
+                "isSelected": false
+            },
+            {
+                "id": 15,
+                "dish": "Coffee",
+                "isSelected": false
+            },
+            {
+                "id": 16,
+                "dish": "Biscuits",
+                "isSelected": false
+            },
+            {
+                "id": 16,
+                "dish": "Namkeens",
+                "isSelected": false
+            }
+        ]
+    },
+    "Bayna": {
+        "title": "Bayna",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Small Boondi Laddoo",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Medium Boondi Laddoo",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Badi Mathe",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Choti Mathe",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Besan Laddoo",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Dal Khasta",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Mathri",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Cashew Dalmoth",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Besan Sew Namkeen",
+                "isSelected": false
+            },
+            {
+                "id": 10,
+                "dish": "Maide Ki Mithi Suhali",
+                "isSelected": false
+            },
+            {
+                "id": 11,
+                "dish": "Sakhe Namkeen",
+                "isSelected": false
+            },
+            {
+                "id": 12,
+                "dish": "Meetha Khurma",
+                "isSelected": false
+            },
+            {
+                "id": 13,
+                "dish": "Sonth Laddoo",
+                "isSelected": false
+            },
+            {
+                "id": 14,
+                "dish": "Maide Ki Puri",
+                "isSelected": false
+            },
+            {
+                "id": 15,
+                "dish": "Aate Poha Mitha",
+                "isSelected": false
+            },
+            {
+                "id": 16,
+                "dish": "Khaja Mitha",
+                "isSelected": false
+            },
+            {
+                "id": 17,
+                "dish": "Balooshahi",
+                "isSelected": false
+            },
+            {
+                "id": 18,
+                "dish": "Pateesa",
+                "isSelected": false
+            },
+            {
+                "id": 19,
+                "dish": "Lachedar Papdi",
+                "isSelected": false
+            },
+            {
+                "id": 20,
+                "dish": "Moong Ki Magdal",
+                "isSelected": false
+            },
+            {
+                "id": 21,
+                "dish": "Milk Protein",
+                "isSelected": false
+            },
+            {
+                "id": 22,
+                "dish": "Moti Pag",
+                "isSelected": false
+            },
+            {
+                "id": 23,
+                "dish": "Kala Jam",
+                "isSelected": false
+            },
+            {
+                "id": 24,
+                "dish": "Lal Jam",
+                "isSelected": false
+            },
+            {
+                "id": 25,
+                "dish": "Lal Peda",
+                "isSelected": false
+            },
+            {
+                "id": 26,
+                "dish": "Milk Barfi",
+                "isSelected": false
+            },
+            {
+                "id": 27,
+                "dish": "Chandrakala",
+                "isSelected": false
+            },
+            {
+                "id": 28,
+                "dish": "Kaaju Barfi",
+                "isSelected": false
+            },
+            {
+                "id": 29,
+                "dish": "Mewa Gond Ke Laddoo",
+                "isSelected": false
+            },
+            {
+                "id": 30,
+                "dish": "Kaju Ki Gilauri",
+                "isSelected": false
+            },
+            {
+                "id": 31,
+                "dish": "Angoordana",
+                "isSelected": false
+            },
+            {
+                "id": 32,
+                "dish": "Emarti",
+                "isSelected": false
+            },
+            {
+                "id": 33,
+                "dish": "Khoye Ki Gujhiya",
+                "isSelected": false
+            },
+            {
+                "id": 34,
+                "dish": "Falihai Dalmoth",
+                "isSelected": false
+            },
+            {
+                "id": 35,
+                "dish": "Kesariya Petha",
+                "isSelected": false
+            },
+            {
+                "id": 36,
+                "dish": "Khoye ki Gilauri",
+                "isSelected": false
+            }
+        ]
+    },
+    "Children's Section": {
+        "title": "Children's Section",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Chana Jor Garam",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Bhel Puri",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Fruit Chat",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Crushed Ice (Gheesi Burf)",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Falooda Barf Kullhad Me",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Cotton Candy",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Joker Toffee Wala",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Hansi Ka Khazana",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Hath Ka Jhula",
+                "isSelected": false
+            },
+            {
+                "id": 10,
+                "dish": "Slider Jhula",
+                "isSelected": false
+            },
+            {
+                "id": 11,
+                "dish": "Pop Corn",
+                "isSelected": false
+            },
+            {
+                "id": 12,
+                "dish": "Pastries",
+                "isSelected": false
+            },
+            {
+                "id": 13,
+                "dish": "Micky Mouse",
+                "isSelected": false
+            },
+            {
+                "id": 14,
+                "dish": "Lala Lali",
+                "isSelected": false
+            },
+            {
+                "id": 15,
+                "dish": "Filter Water",
+                "isSelected": false
+            },
+            {
+                "id": 16,
+                "dish": "Water Packs",
+                "isSelected": false
+            },
+            {
+                "id": 17,
+                "dish": "Water Bottle 200ml",
+                "isSelected": false
+            },
+            {
+                "id": 18,
+                "dish": "Gas Balloon",
+                "isSelected": false
+            },
+            {
+                "id": 19,
+                "dish": "Barbaan",
+                "isSelected": false
+            },
+            {
+                "id": 20,
+                "dish": "Pan Stall",
+                "isSelected": false
+            }
+        ]
+    },
+    "Starters": {
+        "title": "Starters",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Spring Roll",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Paneer Tikka",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Mushroom Tikka",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Hara Bhara Kebab",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Seekh Kebab",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Roasted Kebab",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Mini Roll",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Cheese Roll",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Paneer Roll",
+                "isSelected": false
+            },
+            {
+                "id": 10,
+                "dish": "Veg Cutlet",
+                "isSelected": false
+            },
+            {
+                "id": 11,
+                "dish": "Til Ke Tukdey",
+                "isSelected": false
+            },
+            {
+                "id": 12,
+                "dish": "Mushroom Finger",
+                "isSelected": false
+            },
+            {
+                "id": 13,
+                "dish": "Moong Dal (Mungodi)",
+                "isSelected": false
+            },
+            {
+                "id": 14,
+                "dish": "Mini Pizza",
+                "isSelected": false
+            },
+            {
+                "id": 15,
+                "dish": "Mini Dhokla",
+                "isSelected": false
+            },
+            {
+                "id": 16,
+                "dish": "Mini Paneer Pakoda",
+                "isSelected": false
+            },
+            {
+                "id": 17,
+                "dish": "Kesariya Petha",
+                "isSelected": false
+            },
+            {
+                "id": 18,
+                "dish": "Frankie",
+                "isSelected": false
+            },
+            {
+                "id": 19,
+                "dish": "Peanut Masala",
+                "isSelected": false
+            },
+            {
+                "id": 20,
+                "dish": "Rasbhari",
+                "isSelected": false
+            },
+            {
+                "id": 21,
+                "dish": "Kaju Kalash",
+                "isSelected": false
+            },
+            {
+                "id": 22,
+                "dish": "Palak Chaap",
+                "isSelected": false
+            },
+            {
+                "id": 23,
+                "dish": "Veg Crispy",
+                "isSelected": false
+            },
+            {
+                "id": 24,
+                "dish": "Mini Samosa",
+                "isSelected": false
+            },
+            {
+                "id": 25,
+                "dish": "Mini Barfi (Kaju)",
+                "isSelected": false
+            },
+            {
+                "id": 26,
+                "dish": "Babycorn Masala",
+                "isSelected": false
+            },
+            {
+                "id": 27,
+                "dish": "Makhana Fry",
+                "isSelected": false
+            },
+            {
+                "id": 28,
+                "dish": "Paneer Stick",
+                "isSelected": false
+            },
+            {
+                "id": 29,
+                "dish": "Idli Fry",
+                "isSelected": false
+            },
+            {
+                "id": 30,
+                "dish": "Lollipop",
+                "isSelected": false
+            },
+            {
+                "id": 31,
+                "dish": "Potato Finger",
+                "isSelected": false
+            },
+            {
+                "id": 32,
+                "dish": "Paneer Finger",
+                "isSelected": false
+            },
+            {
+                "id": 33,
+                "dish": "Gobhi Finger",
+                "isSelected": false
+            },
+            {
+                "id": 34,
+                "dish": "Chena Murgi",
+                "isSelected": false
+            },
+            {
+                "id": 35,
+                "dish": "Potli",
+                "isSelected": false
+            },
+            {
+                "id": 36,
+                "dish": "Malysian Roll",
+                "isSelected": false
+            },
+            {
+                "id": 37,
+                "dish": "Veg Rangeela",
+                "isSelected": false
+            },
+            {
+                "id": 38,
+                "dish": "Flower Chilly",
+                "isSelected": false
+            },
+            {
+                "id": 39,
+                "dish": "Onion Rings",
+                "isSelected": false
+            },
+            {
+                "id": 40,
+                "dish": "Veg Crispy",
+                "isSelected": false
+            },
+            {
+                "id": 41,
+                "dish": "Mint Paneer",
+                "isSelected": false
+            },
+            {
+                "id": 42,
+                "dish": "Honey Potato",
+                "isSelected": false
+            },
+            {
+                "id": 43,
+                "dish": "Potato Nest",
+                "isSelected": false
+            },
+            {
+                "id": 44,
+                "dish": "Veg. Kebab Lollipop",
+                "isSelected": false
+            },
+            {
+                "id": 45,
+                "dish": "PAneer Saate",
+                "isSelected": false
+            },
+            {
+                "id": 46,
+                "dish": "Peanut Roll",
+                "isSelected": false
+            },
+            {
+                "id": 47,
+                "dish": "Chilly Potato",
+                "isSelected": false
+            },
+            {
+                "id": 48,
+                "dish": "Veg Corn Tikka",
+                "isSelected": false
+            },
+            {
+                "id": 49,
+                "dish": "Babycorn Crispy",
+                "isSelected": false
+            },
+            {
+                "id": 50,
+                "dish": "Mushroom Stick",
+                "isSelected": false
+            },
+            {
+                "id": 51,
+                "dish": "Veg Cheese Pyaza",
+                "isSelected": false
+            },
+            {
+                "id": 52,
+                "dish": "Spinach Roll",
+                "isSelected": false
+            },
+            {
+                "id": 53,
+                "dish": "Dhokla",
+                "isSelected": false
+            },
+            {
+                "id": 54,
+                "dish": "Pav Bhaji",
+                "isSelected": false
+            },
+            {
+                "id": 55,
+                "dish": "Dahi Bhalla",
+                "isSelected": false
+            },
+            {
+                "id": 56,
+                "dish": "Palak Pakoda",
+                "isSelected": false
+            },
+            {
+                "id": 57,
+                "dish": "Paneer Pakoda",
+                "isSelected": false
+            },
+            {
+                "id": 58,
+                "dish": "Baigan Pakoda",
+                "isSelected": false
+            },
+            {
+                "id": 59,
+                "dish": "Chutney Ke Aaloo",
+                "isSelected": false
+            }
+        ]
+    },
+    "Non Veg Starters": {
+        "title": "Non Veg Starters",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Achari Fish Tikka",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Fish Kaali Mirch",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Murgh Tikka",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Murgh Malai Kebab",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Murgh Achari Kebab",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Chicken Cutlet",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Chicken Keema",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Samosa",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Roti Kebab",
+                "isSelected": false
+            },
+            {
+                "id": 10,
+                "dish": "Kakori Kebab",
+                "isSelected": false
+            },
+            {
+                "id": 11,
+                "dish": "Lamb Seekh Kebab",
+                "isSelected": false
+            },
+            {
+                "id": 12,
+                "dish": "Galawati Kebab",
+                "isSelected": false
+            }
+        ]
+    },
+    "Breads (Roti)": {
+        "title": "Breads (Roti)",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Sheermal",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Dhaniya Roti",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Rumali Roti",
+                "isSelected": false
+            }
+        ]
+    },
+    "Biryani": {
+        "title": "Biryani",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Chicken Biryani",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Mutton Biryani",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Zarda",
+                "isSelected": false
+            }
+        ]
+    },
+    "Main Course Non Veg": {
+        "title": "Main Course Non Veg",
+        "items": [
+            {
+                "id": 1,
+                "dish": "Murgh Tikka Masala",
+                "isSelected": false
+            },
+            {
+                "id": 2,
+                "dish": "Murgh Jalfrezi",
+                "isSelected": false
+            },
+            {
+                "id": 3,
+                "dish": "Murgh Methi",
+                "isSelected": false
+            },
+            {
+                "id": 4,
+                "dish": "Murgh Keema",
+                "isSelected": false
+            },
+            {
+                "id": 5,
+                "dish": "Murgh Kadhai",
+                "isSelected": false
+            },
+            {
+                "id": 6,
+                "dish": "Murgh Tandorri",
+                "isSelected": false
+            },
+            {
+                "id": 7,
+                "dish": "Murgh Shahi Korma",
+                "isSelected": false
+            },
+            {
+                "id": 8,
+                "dish": "Murgh Do Pyaza",
+                "isSelected": false
+            },
+            {
+                "id": 9,
+                "dish": "Murgh Kaali Mirch",
+                "isSelected": false
+            },
+            {
+                "id": 10,
+                "dish": "Murgh Kolhapuri",
+                "isSelected": false
+            },
+            {
+                "id": 11,
+                "dish": "Murgh Makhani",
+                "isSelected": false
+            },
+            {
+                "id": 12,
+                "dish": "Murgh Masaledar",
+                "isSelected": false
+            },
+            {
+                "id": 13,
+                "dish": "Gosht Keema Matar",
+                "isSelected": false
+            },
+            {
+                "id": 14,
+                "dish": "Gosht Khara Masala",
+                "isSelected": false
+            },
+            {
+                "id": 15,
+                "dish": "Gosht Do Pyaza",
+                "isSelected": false
+            },
+            {
+                "id": 16,
+                "dish": "Gosht Achari",
+                "isSelected": false
+            },
+            {
+                "id": 17,
+                "dish": "Gosht Chilli Masala",
+                "isSelected": false
+            },
+            {
+                "id": 18,
+                "dish": "Roganjosh",
+                "isSelected": false
+            },
+            {
+                "id": 19,
+                "dish": "Bhuna Gosht Masala",
+                "isSelected": false
+            },
+            {
+                "id": 20,
+                "dish": "Dum Gosht Ka Korma",
+                "isSelected": false
+            },
+            {
+                "id": 21,
+                "dish": "Gosht Kadhai",
+                "isSelected": false
+            },
+            {
+                "id": 22,
+                "dish": "Gosht Nargisi",
+                "isSelected": false
+            },
+            {
+                "id": 23,
+                "dish": "Gosht Peshawari",
+                "isSelected": false
+            }
+        ]
+    }
+}
