@@ -62,7 +62,7 @@ const Contact = () => {
       headers: {
         accept: 'application/json',
         'content-type': 'application/json',
-        'api-key': `${process.env.SENDINBLUE_API_KEY}`
+        'api-key': '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'
       },
       body: JSON.stringify({
         sender: { name: name, email: email },
