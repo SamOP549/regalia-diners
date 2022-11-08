@@ -73,7 +73,9 @@ const Contact = () => {
       + "*Email :* " + email + "%0a"
       + "*Phone :* " + phone + "%0a"
       + "*Message :* " + message;
-    window.open(whatsappURL, '_blank').focus();
+    if (whatsappURL) {
+      window.open(whatsappURL, '_blank').focus();
+    }
     setName('')
     setPhone('')
     setEmail('')

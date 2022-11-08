@@ -22,7 +22,6 @@ const Custom = () => {
     let t = await fetch(`/api/menu`)
     let menu = await t.json()
     setMenu(menu)
-    console.log(menu)
   }
 
   async function handleOnSubmit(e) {
@@ -45,7 +44,7 @@ const Custom = () => {
     let t = await fetch(scriptURL, { method: 'POST', body: new FormData(form) })
     let res = await t.json()
 
-    if(res.result == 'success'){
+    if (res.result == 'success') {
       toast.success("We'll contact you soon! ❤️", {
         position: "bottom-center",
         autoClose: 2000,
@@ -57,7 +56,7 @@ const Custom = () => {
         theme: "light",
       });
     }
-    else{
+    else {
       toast.error('Some error occured!', {
         position: "bottom-center",
         autoClose: 2000,
@@ -67,7 +66,7 @@ const Custom = () => {
         draggable: true,
         progress: undefined,
         theme: "light",
-        });
+      });
     }
 
 
@@ -190,7 +189,9 @@ const Custom = () => {
       + "*Breads(Roti) - Non Veg :* " + selected[28] + "%0a"
       + "*Biryani :* " + selected[29] + "%0a"
       + "*Main Course - Non Veg :* " + selected[30];
-    window.open(whatsappURL, '_blank').focus();
+    if (whatsappURL) {
+      window.open(whatsappURL, '_blank').focus();
+    }
     setName('')
     setEmail('')
     setPhone('')

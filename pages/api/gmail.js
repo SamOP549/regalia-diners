@@ -2,6 +2,8 @@ const nodemailer = require("nodemailer");
 const { google } = require("googleapis");
 const OAuth2 = google.auth.OAuth2;
 
+require('dotenv').config()
+
 export default function handler(req, res) {
 
     const EMAIL_ADDRESS = process.env.EMAIL_ADDRESS
