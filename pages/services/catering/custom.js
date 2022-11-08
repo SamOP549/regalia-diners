@@ -142,16 +142,27 @@ const Custom = () => {
     Main Course - Non Veg: ${selected[30]}
     `
     const subject = 'Data from Custom Menu'
-    let data = { emailMsg, subject }
-
-    let g = await fetch(`/api/gmail`, {
-      method: 'POST', // or 'PUT'
+    const options = {
+      method: 'POST',
       headers: {
-        'Content-Type': 'application/json',
+        accept: 'application/json',
+        'content-type': 'application/json',
+        'api-key': `${process.env.SENDINBLUE_API_KEY}`
       },
-      body: JSON.stringify(data),
-    })
-    let gmailres = await g.json()
+      body: JSON.stringify({
+        sender: { name: name, email: email },
+        to: [{ email: 'jainsamarth549@gmail.com' }],
+        params: { name: name, email: email, phone: phone, peopleCount: peopleCount },
+        subject: subject,
+        textContent: `${emailMsg}`,
+        htmlContent: `${emailMsg}`
+      })
+    };
+
+    fetch('https://api.sendinblue.com/v3/smtp/email', options)
+      .then(response => response.json())
+      .then(response => console.log(response))
+      .catch(err => console.error(err));
 
     var whatsappURL = "https://wa.me/918874247420?text="
       + "*Name :* " + name + "%0a"
