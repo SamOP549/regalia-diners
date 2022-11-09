@@ -14,7 +14,7 @@ export default async function handler(req, res) {
     sendSmtpEmail.subject = req.body.subject;
     sendSmtpEmail.htmlContent = req.body.emailMsg;
     sendSmtpEmail.sender = { name: req.body.name, email: req.body.email };
-    sendSmtpEmail.to = [{ email: 'jainsamarth549@gmail.com' }];
+    sendSmtpEmail.to = [{ email: 'regaliadiners@gmail.com' }];
     sendSmtpEmail.params = { name: req.body.name, email: req.body.email, phone: req.body.phone };
 
     apiInstance.sendTransacEmail(sendSmtpEmail).then(function (data) {
