@@ -188,7 +188,7 @@ const Contact = () => {
               m-0
               focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="message" rows="3" placeholder="Message" name='Message' onChange={(e) => setMessage(e.target.value)} value={message}></textarea>
                   </div>
-                  <button className='send-btn'>
+                  <button style={{width: "7rem"}} className='send-btn'>
                     <div className="svg-wrapper-1">
                       <div className="svg-wrapper">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">

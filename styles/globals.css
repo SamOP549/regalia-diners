@@ -163,7 +163,7 @@ button:hover .button-text {
 }
 
 .send-btn:hover svg {
-  transform: translateX(2.2em) rotate(45deg) scale(1.1);
+  transform: translateX(1.5em) rotate(45deg) scale(1.1);
 }
 
 .send-btn:hover span {
