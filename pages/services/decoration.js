@@ -139,7 +139,7 @@ const Decoration = () => {
     return (
         <div>
             <Head>
-                <title>Decoration Services - Regalia Diners</title>
+                <title>Decoration Services - Regalia Events</title>
             </Head>
             <Jumbotron title='Decoration' bg='/Services/decor-cover.jpg' />
             {decor.map((event, index) => {

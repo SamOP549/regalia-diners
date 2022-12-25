@@ -14,7 +14,7 @@ const Reviews = () => {
   const testimonials = [
     [{
       name: "Om Gupta",
-      review: "The services and the quality provided by the Team of Ansh and Riya is undoubtedly amazing. To make you special day more special and to keep the Fufajis happy with the lip smacking food, one must go for the Regalia Diners and they won't leave a single stone unturned to amaze you with their service !!",
+      review: "The services and the quality provided by the Team of Ansh and Riya is undoubtedly amazing. To make you special day more special and to keep the Fufajis happy with the lip smacking food, one must go for the Regalia Events and they won't leave a single stone unturned to amaze you with their service !!",
       imgSrc: ts1,
       imgAlt: "Om's Testimonial"
     },
@@ -55,7 +55,7 @@ const Reviews = () => {
   return (
     <div>
       <Head>
-        <title>Customer Reviews - Regalia Diners</title>
+        <title>Customer Reviews - Regalia Events</title>
       </Head>
       <Jumbotron title='Reviews' bg='/Jumbotrons/reviews.jpg' />
       <section className="text-gray-600 body-font mt-24">

@@ -41,7 +41,7 @@ const Menu = () => {
     return (
         <div>
             <Head>
-                <title>Catering Service - Regalia Diners</title>
+                <title>Catering Service - Regalia Events</title>
             </Head>
             <Jumbotron title='Catering' bg="/Jumbotrons/menu.jpeg" />
 

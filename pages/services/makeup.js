@@ -84,7 +84,7 @@ const Makeup = () => {
   return (
     <div>
       <Head>
-        <title>Makeup Services - Regalia Diners</title>
+        <title>Makeup Services - Regalia Events</title>
       </Head>
       <Jumbotron title='Makeup' bg='/Services/makeup-cover.jpg' />
       {

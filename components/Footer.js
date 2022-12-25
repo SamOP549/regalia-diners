@@ -61,7 +61,7 @@ const Footer = ({ pathname }) => {
                 </div>
                 <div className="bg-zinc-900">
                     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row icons-tray">
-                        <p className="text-gray-500 sm:text-md text-sm text-center sm:text-left">© 2005-2022 Regalia Diners. All Rights Reserved. Made with ❤️ by
+                        <p className="text-gray-500 sm:text-md text-sm text-center sm:text-left">© 2005-2022 Regalia Events. All Rights Reserved. Made with ❤️ by
                             <a href="mailto: jainsamarth549@gmail.com" rel="noopener noreferrer" style={{ color: "#DAA520" }} className="ml-1" target="_blank">Samarth Jain.</a>
                         </p>
                         <span className="flex space-x-3 sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start icons-tray">

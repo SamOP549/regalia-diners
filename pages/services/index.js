@@ -47,7 +47,11 @@ const Services = () => {
   return (
     <div>
       <Head>
-        <title>Services Provided - Regalia Diners</title>
+        <title>Services Provided - Regalia Events</title>
+        <meta name="description" content="The best event planners in Lucknow. We provide complete solutions for wedding, parties home and corporate events. Highly professional staff. We help you throw the best parties ever. Get the quote now!" />
+        <meta name='keywords' content='Best wedding planner in Lucknow, Veg Caterers in Lucknow, Book the best event services in Lucknow for indoor, outdoor wedding functions, party, special occasions, corporate events with affordable price. Best rated event manager in Lucknow, Caterer for corporate events, Caterer for wedding, Caterer for birthday party, Caterer for parties, Caterer for house parties, Get quote for wedding planning, Best event planner in Lucknow' />
+        <link rel='canonical' href='https://www.regaliadiners.com' />
+        <meta name="robots" content="index, follow" />
       </Head>
       <Jumbotron title='Services' bg='/Jumbotrons/services.jpeg' />
 

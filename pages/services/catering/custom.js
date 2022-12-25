@@ -216,7 +216,7 @@ const Custom = () => {
 
     <div>
       <Head>
-        <title>Create Your Own Menu - Regalia Diners</title>
+        <title>Create Your Own Menu - Regalia Events</title>
       </Head>
       <ToastContainer
         position="bottom-center"

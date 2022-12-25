@@ -16,13 +16,13 @@ export default function Home() {
   const heros = [
     {
       imageSrc: vision,
-      imageAlt: "Vision of Regalia Diners",
+      imageAlt: "Vision of Regalia Events",
       title: "Our Vision",
       desc: "Our sole purpose is to deliver the best version of our customer's vision. We understand the  importance of the event and the responsibilities it carries. We bring your vision into reality on your auspicious day."
     },
     {
       imageSrc: philosophy,
-      imageAlt: "Philosophy of Regalia Diners",
+      imageAlt: "Philosophy of Regalia Events",
       title: "Our Philosophy",
       desc: "We are a catering company based out of Lucknow and specialize in vegetarian delicacies. We believe in giving the dishes a remarkable taste & innovative presentation. Our diverse range of menu ensures our event hosts can make all their guest feel delighted. Every detail matters when it comes to your special day. Our only aim - to brighten every moment of the event that you have dreamt, planned, waited, and visualised of for years."
     },
@@ -75,7 +75,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Best Caterers in Lucknow || Top Caterers in Lucknow - Regalia Diners</title>
+        <title>Best Caterers in Lucknow || Top Caterers in Lucknow - Regalia Events</title>
         <link rel='canonical' href='https://www.regaliadiners.com' />
         <meta name="description" content="The best caterers in Lucknow who excel in preparing vegetarian delecacies for all cuisines. Complete catering solution for your intimate Wedding, Parties, Home and Corporate events. Devoted Chefs. Highly professional. We will help you throw the best parties ever. Get the quote now!" />
         <meta name='keywords' content='Best Caterers in Lucknow, Veg Caterers in Lucknow, Book the best vegetarian food catering services in Lucknow for indoor, outdoor wedding functions, party, special occasions, corporate events with affordable price. Get veg food menus, catering cost per plate, number of guests serve, ratings and reviews, Best rated Veg Caterers in Lucknow, Vegetarian Catering menu, Food menu for occasion, Caterer for corporate events, Caterer for wedding, Caterer for birthday party, Caterer for parties, Caterer for house parties, Get quote for wedding food menu, Book your caterer today, Best event planner in Lucknow' />
