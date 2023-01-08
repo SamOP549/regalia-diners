@@ -5,7 +5,7 @@ export default async function handler(req, res) {
     let defaultClient = SibApiV3Sdk.ApiClient.instance;
 
     let apiKey = defaultClient.authentications['api-key'];
-    apiKey.apiKey = "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";
+    apiKey.apiKey = process.env.SENDINBLUE_API_KEY;
 
     let apiInstance = new SibApiV3Sdk.TransactionalEmailsApi();
 
