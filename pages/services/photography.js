@@ -128,7 +128,7 @@ const Photography = () => {
   return (
     <div>
       <Head>
-        <title>Photography Services - Regalia Events</title>
+        <title>Photography Services - Regalia Diners</title>
       </Head>
       <Jumbotron title='Photography' bg='/Services/photography-cover.jpg' />
       <section className="overflow-hidden text-gray-700 ">

@@ -86,7 +86,7 @@ const Contact = () => {
   return (
     <div>
       <Head>
-        <title>Contact Us - Regalia Events</title>
+        <title>Contact Us - Regalia Diners</title>
       </Head>
       <ToastContainer
         position="bottom-center"
