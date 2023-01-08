@@ -248,174 +248,174 @@ const Custom = () => {
                 </div>
                 <div className="form-group">
                   <label style={{ color: "#DAA520" }} className="label">Contact Number</label>
-                  <input required autocomplete="off" name="Phone" id="MobileNumber" className="input" type="tel" placeholder="Enter Number"
+                  <input required autoComplete="off" name="Phone" id="MobileNumber" className="input" type="tel" placeholder="Enter Number"
                     onChange={(e) => setPhone(e.target.value)} value={phone}
                   />
                 </div>
                 <div className="form-group">
                   <label style={{ color: "#DAA520" }} className="label">Email Address</label>
-                  <input required autocomplete="off" name="Email" id="Email" className="input" type="email" placeholder="Enter Email"
+                  <input required autoComplete="off" name="Email" id="Email" className="input" type="email" placeholder="Enter Email"
                     onChange={(e) => setEmail(e.target.value)} value={email}
                   />
                 </div>
                 <div className="form-group">
                   <label style={{ color: "#DAA520" }} className="label">Number of People</label>
-                  <input required autocomplete="off" name="People Count" id="PeopleCount" className="input" type="number" placeholder="Enter Number of People"
+                  <input required autoComplete="off" name="People Count" id="PeopleCount" className="input" type="number" placeholder="Enter Number of People"
                     onChange={(e) => setPeopleCount(e.target.value)} value={peopleCount}
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Chinese" id="chinese" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Chinese" id="chinese" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Chilla" id="chilla" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Chilla" id="chilla" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Lucknowi Chat" id="lucknowiChat" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Lucknowi Chat" id="lucknowiChat" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="South Indian" id="southIndian" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="South Indian" id="southIndian" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Tawa Sabzi Indian" id="tawaSabziIndian" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Tawa Sabzi Indian" id="tawaSabziIndian" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="American Tawa" id="americanTawa" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="American Tawa" id="americanTawa" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Hot Tawa Chat" id="hotTawaChat" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Hot Tawa Chat" id="hotTawaChat" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Pulses(Dal)" id="pulsesDal" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Pulses(Dal)" id="pulsesDal" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Kadhi" id="kadhi" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Kadhi" id="kadhi" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Veggies(Gravy)" id="veggiesGravy" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Veggies(Gravy)" id="veggiesGravy" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Veggies(Dry)" id="veggiesDry" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Veggies(Dry)" id="veggiesDry" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Breads(Roti)" id="breadsRoti" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Breads(Roti)" id="breadsRoti" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Poori and Kachori" id="pooriAndKachori" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Poori and Kachori" id="pooriAndKachori" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Pulao" id="pulao" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Pulao" id="pulao" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Curd" id="curd" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Curd" id="curd" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Salad" id="salad" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Salad" id="salad" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Sauces" id="sauces" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Sauces" id="sauces" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Parantha" id="parantha" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Parantha" id="parantha" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Kebab Parantha" id="kebabParantha" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Kebab Parantha" id="kebabParantha" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Traditional" id="traditional" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Traditional" id="traditional" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Sweets" id="sweets" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Sweets" id="sweets" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Ice Creams" id="iceCreams" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Ice Creams" id="iceCreams" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Milk" id="milk" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Milk" id="milk" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Breakfast" id="breakfast" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Breakfast" id="breakfast" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Bayna" id="bayna" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Bayna" id="bayna" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Children Section" id="childrenSection" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Children Section" id="childrenSection" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Starters" id="starters" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Starters" id="starters" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Non Veg Starters" id="nonVegStarters" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Non Veg Starters" id="nonVegStarters" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Breads(Roti) - Non Veg" id="breadsRotiNonVeg" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Breads(Roti) - Non Veg" id="breadsRotiNonVeg" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Biryani" id="biryani" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Biryani" id="biryani" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
                 <div className="form-group hidden">
-                  <input autocomplete="off" name="Main Course - Non Veg" id="mainCourseNonVeg" className="input" type="text" placeholder="menu items"
+                  <input autoComplete="off" name="Main Course - Non Veg" id="mainCourseNonVeg" className="input" type="text" placeholder="menu items"
                     defaultValue=""
                   />
                 </div>
