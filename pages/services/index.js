@@ -7,7 +7,6 @@ import decor from '../../public/Services/decoration.jpg'
 import makeup from '../../public/Services/makeup.webp'
 import photography from '../../public/Services/photography.jpeg'
 import catering from '../../public/Services/catering.jpg'
-import Fade from 'react-reveal/Fade';
 
 const Services = () => {
 
@@ -58,33 +57,31 @@ const Services = () => {
       {
         heros.map((hero, index) => {
           return (
-            <Fade key={index} bottom>
-              <section className="text-gray-600 body-font">
-                <div className={`container mx-auto flex px-8 py-24 ${index % 2 ? "md:flex-row" : "md:flex-row-reverse"} flex-col items-center`}>
-                  <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0">
-                    <Image quality="90" loading="lazy" className="object-cover object-center rounded" src={hero.imageSrc} alt={hero.imageAlt} />
-                  </div>
-                  <div className={`lg:flex-grow md:w-1/2 ${index % 2 ? "lg:pl-24 md:pl-16" : "lg:pr-24 md:pr-16"} flex flex-col md:items-start md:text-left items-center text-center`}>
-                    <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-gray-900">{hero.title}</h1>
-                    <p className="mb-8 leading-relaxed sm:text-xl text-sm" id='desc' >
-                      {hero.desc}{hero.title === "Makeup" ? <br /> : ""}
-                      {hero.desc2}{hero.title === "Makeup" ? <br /> : ""}
-                      {hero.desc3}
-                    </p>
-                    <div className="flex justify-center">
-                      <Link rel="preload" href={hero.btnHref}>
-                        <button className="learn-more">
-                          <span className="circle" aria-hidden="true">
-                            <span className="icon arrow"></span>
-                          </span>
-                          <span className="button-text"><p>Know More</p></span>
-                        </button>
-                      </Link>
-                    </div>
+            <section data-aos="fade-up" key={index} className="text-gray-600 body-font">
+              <div className={`container mx-auto flex px-8 py-24 ${index % 2 ? "md:flex-row" : "md:flex-row-reverse"} flex-col items-center`}>
+                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0">
+                  <Image quality="90" loading="lazy" className="object-cover object-center rounded" src={hero.imageSrc} alt={hero.imageAlt} />
+                </div>
+                <div className={`lg:flex-grow md:w-1/2 ${index % 2 ? "lg:pl-24 md:pl-16" : "lg:pr-24 md:pr-16"} flex flex-col md:items-start md:text-left items-center text-center`}>
+                  <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-gray-900">{hero.title}</h1>
+                  <p className="mb-8 leading-relaxed sm:text-xl text-sm" id='desc' >
+                    {hero.desc}{hero.title === "Makeup" ? <br /> : ""}
+                    {hero.desc2}{hero.title === "Makeup" ? <br /> : ""}
+                    {hero.desc3}
+                  </p>
+                  <div className="flex justify-center">
+                    <Link rel="preload" href={hero.btnHref}>
+                      <button className="learn-more">
+                        <span className="circle" aria-hidden="true">
+                          <span className="icon arrow"></span>
+                        </span>
+                        <span className="button-text"><p>Know More</p></span>
+                      </button>
+                    </Link>
                   </div>
                 </div>
-              </section>
-            </Fade>
+              </div>
+            </section>
           )
         })
       }

@@ -2,7 +2,6 @@ import React from 'react'
 import Jumbotron from '../components/Jumbotron'
 import Image from 'next/image'
 import aboutimg from '../public/about.jpg'
-import Slide from 'react-reveal/Slide';
 import Head from 'next/head';
 
 const About = () => {
@@ -13,8 +12,7 @@ const About = () => {
       </Head>
       <Jumbotron title='About' bg='/Jumbotrons/about.jpg' />
       <div className="container my-24 px-6 mx-auto">
-        <section className="mb-32 text-gray-800">
-          <Slide bottom>
+        <section data-aos="fade-up" className="mb-32 text-gray-800">
             <div className="flex flex-wrap items-center">
               <div className="hidden lg:flex grow-0 shrink-0 basis-auto lg:w-6/12 xl:w-4/12">
                 <Image quality="90" loading="lazy" src={aboutimg}
@@ -38,7 +36,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-          </Slide>
         </section>
       </div>
     </div>

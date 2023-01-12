@@ -7,9 +7,6 @@ import cardBirthday from '../public/Events/birthday.jpg'
 import cardParty from '../public/Events/party.jpg'
 import vision from '../public/vision.jpg'
 import philosophy from '../public/philosophy.jpg'
-import Fade from 'react-reveal/Fade';
-import Flip from 'react-reveal/Flip';
-import Pulse from 'react-reveal/Pulse';
 import Link from 'next/link'
 
 export default function Home() {
@@ -88,21 +85,19 @@ export default function Home() {
       {
         heros.map((section, index) => {
           return (
-            <Fade key={index} bottom>
-              <section className="text-gray-600 body-font mb-10 mt-10">
-                <div className={`container mx-auto flex md:flex-${index % 2 ? "row-reverse" : "row"} flex-col items-center`}>
-                  <div className="lg:max-w-lg w-full md:mb-0 mb-8">
-                    <Image quality="90" loading="lazy" className="rounded" src={section.imageSrc} height="632" width="632" objectFit="cover" alt={section.imageAlt} />
-                  </div>
-                  <div className="lg:flex-grow md:w-1/2 lg:px-20 sm:px-12 px-12 flex flex-col text-center items-center">
-                    <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-gray-900">{section.title}</h1>
-                    <p className="sm:text-xl text-sm mb-8 leading-relaxed">{section.desc}</p>
-                    <div className="flex justify-center">
-                    </div>
+            <section data-aos="fade-up" key={index} className="text-gray-600 body-font mb-10 mt-10">
+              <div className={`container mx-auto flex md:flex-${index % 2 ? "row-reverse" : "row"} flex-col items-center`}>
+                <div className="lg:max-w-lg w-full md:mb-0 mb-8">
+                  <Image quality="90" loading="lazy" className="rounded" src={section.imageSrc} height="632" width="632" objectFit="cover" alt={section.imageAlt} />
+                </div>
+                <div className="lg:flex-grow md:w-1/2 lg:px-20 sm:px-12 px-12 flex flex-col text-center items-center">
+                  <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-gray-900">{section.title}</h1>
+                  <p className="sm:text-xl text-sm mb-8 leading-relaxed">{section.desc}</p>
+                  <div className="flex justify-center">
                   </div>
                 </div>
-              </section>
-            </Fade>
+              </div>
+            </section>
           )
         })
       }
@@ -117,17 +112,15 @@ export default function Home() {
             {
               specialities.map((speciality, index) => {
                 return (
-                  <Flip top left key={index}>
-                    <div className="p-2 sm:w-1/2 w-full">
-                      <div className="bg-gray-100 rounded flex p-4 h-full items-center">
-                        <svg fill="none" stroke="#DAA520" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
-                          <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                          <path d="M22 4L12 14.01l-3-3"></path>
-                        </svg>
-                        <span className="title-font sm:text-2xl text-sm decorate"><p>{speciality.desc}</p></span>
-                      </div>
+                  <div data-aos="flip-left" key={index} className="p-2 sm:w-1/2 w-full">
+                    <div className="bg-gray-100 rounded flex p-4 h-full items-center">
+                      <svg fill="none" stroke="#DAA520" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+                        <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                        <path d="M22 4L12 14.01l-3-3"></path>
+                      </svg>
+                      <span className="title-font sm:text-2xl text-sm decorate"><p>{speciality.desc}</p></span>
                     </div>
-                  </Flip>
+                  </div>
                 )
               })
             }
@@ -145,16 +138,14 @@ export default function Home() {
             {
               events.map((event, index) => {
                 return (
-                  <Pulse key={index}>
-                    <div className="flex rounded-lg  justify-center xl:w-1/4 md:w-1/2 p-6">
-                      <div className="rounded-lg shadow-lg bg-white max-w-md card">
-                        <Image quality="90" loading="lazy" className="rounded-t-lg" src={event.imageSrc} alt={event.imageAlt} />
-                        <div className="p-6">
-                          <p className="text-gray-900 sm:text-2xl text-xl text-center font-medium mb-2">{event.name}</p>
-                        </div>
+                  <div data-aos="flip-up" key={index} className="flex rounded-lg  justify-center xl:w-1/4 md:w-1/2 p-6">
+                    <div className="rounded-lg shadow-lg bg-white max-w-md card">
+                      <Image quality="90" loading="lazy" className="rounded-t-lg" src={event.imageSrc} alt={event.imageAlt} />
+                      <div className="p-6">
+                        <p className="text-gray-900 sm:text-2xl text-xl text-center font-medium mb-2">{event.name}</p>
                       </div>
                     </div>
-                  </Pulse>
+                  </div>
                 )
               })
             }

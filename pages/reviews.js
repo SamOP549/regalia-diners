@@ -8,7 +8,6 @@ import ts3 from '../public/Testimonials/testi03.webp'
 import ts4 from '../public/Testimonials/testi04.png'
 import ts5 from '../public/Testimonials/testi05.png'
 import ts6 from '../public/Testimonials/testi06.png'
-import Slide from 'react-reveal/Slide';
 
 const Reviews = () => {
   const testimonials = [
@@ -64,8 +63,7 @@ const Reviews = () => {
           {
             testimonials.map((data, index) => {
               return (
-                <Slide key={index} bottom cascade>
-                  <div className="flex flex-wrap -m-4 sm:mb-8">
+                  <div data-aos="fade-up" key={index} className="flex flex-wrap -m-4 sm:mb-8">
                     {
                       data.map((testimonial, index) => {
                         return (
@@ -81,7 +79,6 @@ const Reviews = () => {
                       })
                     }
                   </div>
-                </Slide>
               )
             })
           }

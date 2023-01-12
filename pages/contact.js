@@ -1,6 +1,5 @@
 import React, { useState, useRef } from 'react'
 import Jumbotron from '../components/Jumbotron'
-import Slide from 'react-reveal/Slide';
 import Head from 'next/head';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -105,22 +104,19 @@ const Contact = () => {
 
         <section className="mb-32 text-gray-800">
           <div className="flex flex-wrap">
-            <Slide bottom>
-              <div className="grow-0 shrink-0 basis-auto mb-6 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
-                <h2 className="sm:text-5xl text-3xl font-bold mb-6">Contact us</h2>
-                <p className="text-gray-500 mb-6 sm:text-xl text-sm">
-                  Connect with us to make your event wonderful.
-                </p>
-                <p className="text-gray-500 mb-2 sm:text-xl text-sm">E3/7, Awas Vikas Yojna, IIM Road, Lucknow-226101.</p>
-                <p className="text-gray-500 mb-2 sm:text-xl text-sm">+91 8874247420</p>
-                <p className="text-gray-500 mb-2 sm:text-xl text-sm">regaliadiners@gmail.com</p>
-              </div>
-            </Slide>
-            <Slide bottom>
-              <div className="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
-                <form className='flex flex-col gform' ref={forum} method='post' name='contactform' onSubmit={handleOnSubmit} id='sheetdb-form'>
-                  <div className="form-group mb-6">
-                    <input required type="text" className="form-control block
+            <div data-aos="fade-up" className="grow-0 shrink-0 basis-auto mb-6 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
+              <h2 className="sm:text-5xl text-3xl font-bold mb-6">Contact us</h2>
+              <p className="text-gray-500 mb-6 sm:text-xl text-sm">
+                Connect with us to make your event wonderful.
+              </p>
+              <p className="text-gray-500 mb-2 sm:text-xl text-sm">E3/7, Awas Vikas Yojna, IIM Road, Lucknow-226101.</p>
+              <p className="text-gray-500 mb-2 sm:text-xl text-sm">+91 8874247420</p>
+              <p className="text-gray-500 mb-2 sm:text-xl text-sm">regaliadiners@gmail.com</p>
+            </div>
+            <div data-aos="fade-up" className="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
+              <form className='flex flex-col gform' ref={forum} method='post' name='contactform' onSubmit={handleOnSubmit} id='sheetdb-form'>
+                <div className="form-group mb-6">
+                  <input required type="text" className="form-control block
               w-full
               px-3
               py-1.5
@@ -134,10 +130,10 @@ const Contact = () => {
               ease-in-out
               m-0
               focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="name"
-                      placeholder="Name" name='Name' onChange={(e) => setName(e.target.value)} value={name} />
-                  </div>
-                  <div className="form-group mb-6">
-                    <input required type="tel" className="form-control block
+                    placeholder="Name" name='Name' onChange={(e) => setName(e.target.value)} value={name} />
+                </div>
+                <div className="form-group mb-6">
+                  <input required type="tel" className="form-control block
               w-full
               px-3
               py-1.5
@@ -151,10 +147,10 @@ const Contact = () => {
               ease-in-out
               m-0
               focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="number"
-                      placeholder="Contact Number" name='Phone' onChange={(e) => setPhone(e.target.value)} value={phone} />
-                  </div>
-                  <div className="form-group mb-6">
-                    <input required type="email" className="form-control block
+                    placeholder="Contact Number" name='Phone' onChange={(e) => setPhone(e.target.value)} value={phone} />
+                </div>
+                <div className="form-group mb-6">
+                  <input required type="email" className="form-control block
               w-full
               px-3
               py-1.5
@@ -168,10 +164,10 @@ const Contact = () => {
               ease-in-out
               m-0
               focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="email"
-                      placeholder="Email address" name='Email' onChange={(e) => setEmail(e.target.value)} value={email} />
-                  </div>
-                  <div className="form-group mb-6">
-                    <textarea className="
+                    placeholder="Email address" name='Email' onChange={(e) => setEmail(e.target.value)} value={email} />
+                </div>
+                <div className="form-group mb-6">
+                  <textarea className="
               form-control
               block
               w-full
@@ -187,21 +183,20 @@ const Contact = () => {
               ease-in-out
               m-0
               focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="message" rows="3" placeholder="Message" name='Message' onChange={(e) => setMessage(e.target.value)} value={message}></textarea>
-                  </div>
-                  <button style={{width: "7rem"}} className='send-btn'>
-                    <div className="svg-wrapper-1">
-                      <div className="svg-wrapper">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                          <path fill="none" d="M0 0h24v24H0z"></path>
-                          <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
-                        </svg>
-                      </div>
+                </div>
+                <button style={{ width: "7rem" }} className='send-btn'>
+                  <div className="svg-wrapper-1">
+                    <div className="svg-wrapper">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                      </svg>
                     </div>
-                    <span><p>Send</p></span>
-                  </button>
-                </form>
-              </div>
-            </Slide>
+                  </div>
+                  <span><p>Send</p></span>
+                </button>
+              </form>
+            </div>
           </div>
         </section>
       </div>
