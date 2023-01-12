@@ -105,19 +105,19 @@ const Makeup = () => {
                 <div className="grid md:grid-cols-3 grid-cols-1 -m-1 md:-m-2">
                   <div className="flex flex-wrap w-full">
                     <div className="w-full p-1 md:p-2">
-                      <Image onClick={showModal} alt={type.img1Alt} className="block object-cover object-center w-full h-full rounded-lg"
+                      <Image quality="90" loading="lazy" onClick={showModal} alt={type.img1Alt} className="block object-cover object-center w-full h-full rounded-lg"
                         src={type.img1Src} />
                     </div>
                   </div>
                   <div className="flex flex-wrap w-full">
                     <div className="w-full p-1 md:p-2">
-                      <Image onClick={showModal} alt={type.img2Alt} className="block object-cover object-center w-full h-full rounded-lg"
+                      <Image quality="90" loading="lazy" onClick={showModal} alt={type.img2Alt} className="block object-cover object-center w-full h-full rounded-lg"
                         src={type.img2Src} />
                     </div>
                   </div>
                   <div className="flex flex-wrap w-full">
                     <div className="w-full p-1 md:p-2">
-                      <Image onClick={showModal} alt={type.img3Alt} className="block object-cover object-center w-full h-full rounded-lg"
+                      <Image quality="90" loading="lazy" onClick={showModal} alt={type.img3Alt} className="block object-cover object-center w-full h-full rounded-lg"
                         src={type.img3Src} />
                     </div>
                   </div>

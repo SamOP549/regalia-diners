@@ -62,7 +62,7 @@ const Menu = () => {
                                                             <p className="text-gray-700 sm:text-lg text-sm mb-4 lg:h-40 md:h-28">
                                                                 {menu.desc}
                                                             </p>
-                                                            <Link href={menu.url} ><a target='_blank' rel="noopener noreferrer" >
+                                                            <Link rel="preload" href={menu.url} ><a target='_blank' rel="noopener noreferrer" >
                                                                 <button className="viewmenu-btn">
                                                                     <p>View</p>
                                                                 </button>
@@ -93,7 +93,7 @@ const Menu = () => {
                         <div className="text-center lg:w-2/3 w-full mt-20">
                             <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-gray-900">Customize it youself</h1>
                             <div className="flex justify-center">
-                                <Link href="/services/catering/custom">
+                                <Link rel="preload" href="/services/catering/custom">
                                     <button className="learn-more">
                                         <span className="circle" aria-hidden="true">
                                             <span className="icon arrow"></span>

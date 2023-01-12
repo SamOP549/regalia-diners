@@ -71,7 +71,7 @@ const Reviews = () => {
                         return (
                           <div className="lg:w-1/3 lg:mb-0 mb-6 p-4" key={index}>
                             <div className="h-full text-center">
-                              <Image width={80} height={80} alt={testimonial.imgAlt} className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={testimonial.imgSrc} />
+                              <Image quality="90" loading="lazy" width={80} height={80} alt={testimonial.imgAlt} className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={testimonial.imgSrc} />
                               <p className="leading-relaxed sm:text-lg text-sm">{testimonial.review}</p>
                               <span style={{ backgroundColor: "#DAA520" }} className="inline-block h-1 w-10 rounded mt-6 mb-4"></span>
                               <h2 className="text-gray-900 font-medium title-font tracking-wider sm:text-xl text-lg">{testimonial.name}</h2>

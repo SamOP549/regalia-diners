@@ -34,24 +34,24 @@ const Navbar = () => {
       className={`fixed left-0 top-0 w-full z-10 ease-in duration-300 ${shadow}`}
     >
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
-        <Link href='/'>
-          <Image className='cursor-pointer' src='/regalia-logo.png' width={75*1.3} height={67*1.3} alt="navbarLogo" />
+        <Link rel="preload" href='/'>
+          <Image quality="90" loading="lazy" className='cursor-pointer' src='/regalia-logo.png' width="97" height="87" alt="navbarLogo" />
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4 text-lg'>
-            <Link href='/'><h6 className='cursor-pointer'>Home</h6></Link>
+            <Link rel="preload" href='/'><h6 className='cursor-pointer'>Home</h6></Link>
           </li>
           <li className='p-4 text-lg'>
-            <Link href='/services'><h6 className='cursor-pointer'>Services</h6></Link>
+            <Link rel="preload" href='/services'><h6 className='cursor-pointer'>Services</h6></Link>
           </li>
           <li className='p-4 text-lg'>
-            <Link href='/about'><h6 className='cursor-pointer'>About</h6></Link>
+            <Link rel="preload" href='/about'><h6 className='cursor-pointer'>About</h6></Link>
           </li>
           <li className='p-4 text-lg'>
-            <Link href='/reviews'><h6 className='cursor-pointer'>Reviews</h6></Link>
+            <Link rel="preload" href='/reviews'><h6 className='cursor-pointer'>Reviews</h6></Link>
           </li>
           <li className='p-4 text-lg'>
-            <Link href='/contact'><h6 className='cursor-pointer'>Contact</h6></Link>
+            <Link rel="preload" href='/contact'><h6 className='cursor-pointer'>Contact</h6></Link>
           </li>
         </ul>
 
@@ -73,19 +73,19 @@ const Navbar = () => {
         >
           <ul>
             <li onClick={handleNav} className='p-4 text-2xl'>
-              <Link href='/'><h6 className='cursor-pointer'>Home</h6></Link>
+              <Link rel="preload" href='/'><h6 className='cursor-pointer'>Home</h6></Link>
             </li>
             <li onClick={handleNav} className='p-4 text-2xl'>
-              <Link href='/services'><h6 className='cursor-pointer'>Services</h6></Link>
+              <Link rel="preload" href='/services'><h6 className='cursor-pointer'>Services</h6></Link>
             </li>
             <li onClick={handleNav} className='p-4 text-2xl'>
-            <Link href='/about'><h6 className='cursor-pointer'>About</h6></Link>
+            <Link rel="preload" href='/about'><h6 className='cursor-pointer'>About</h6></Link>
             </li>
             <li onClick={handleNav} className='p-4 text-2xl'>
-              <Link href='/reviews'><h6 className='cursor-pointer'>Reviews</h6></Link>
+              <Link rel="preload" href='/reviews'><h6 className='cursor-pointer'>Reviews</h6></Link>
             </li>
             <li onClick={handleNav} className='p-4 text-2xl'>
-              <Link href='/contact'><h6 className='cursor-pointer'>Contact</h6></Link>
+              <Link rel="preload" href='/contact'><h6 className='cursor-pointer'>Contact</h6></Link>
             </li>
           </ul>
         </div>

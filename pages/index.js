@@ -10,6 +10,7 @@ import philosophy from '../public/philosophy.jpg'
 import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
 import Pulse from 'react-reveal/Pulse';
+import Link from 'next/link'
 
 export default function Home() {
 
@@ -91,7 +92,7 @@ export default function Home() {
               <section className="text-gray-600 body-font mb-10 mt-10">
                 <div className={`container mx-auto flex md:flex-${index % 2 ? "row-reverse" : "row"} flex-col items-center`}>
                   <div className="lg:max-w-lg w-full md:mb-0 mb-8">
-                    <Image className="object-cover object-center rounded" src={section.imageSrc} height={316 * 2} width={316 * 2} alt={section.imageAlt} />
+                    <Image quality="90" loading="lazy" className="rounded" src={section.imageSrc} height="632" width="632" objectFit="cover" alt={section.imageAlt} />
                   </div>
                   <div className="lg:flex-grow md:w-1/2 lg:px-20 sm:px-12 px-12 flex flex-col text-center items-center">
                     <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-gray-900">{section.title}</h1>
@@ -147,9 +148,9 @@ export default function Home() {
                   <Pulse key={index}>
                     <div className="flex rounded-lg  justify-center xl:w-1/4 md:w-1/2 p-6">
                       <div className="rounded-lg shadow-lg bg-white max-w-md card">
-                        <Image className="rounded-t-lg" src={event.imageSrc} alt={event.imageAlt} />
+                        <Image quality="90" loading="lazy" className="rounded-t-lg" src={event.imageSrc} alt={event.imageAlt} />
                         <div className="p-6">
-                          <h5 className="text-gray-900 sm:text-2xl text-xl text-center font-medium mb-2">{event.name}</h5>
+                          <p className="text-gray-900 sm:text-2xl text-xl text-center font-medium mb-2">{event.name}</p>
                         </div>
                       </div>
                     </div>

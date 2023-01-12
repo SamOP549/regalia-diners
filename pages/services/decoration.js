@@ -156,24 +156,24 @@ const Decoration = () => {
                         <div className="grid md:grid-cols-2 grid-cols-1">
                             <div className="flex flex-wrap w-full">
                                 <div className="md:p-2 p-1 cursor-pointer w-1/2">
-                                    <Image onClick={showModal} alt={event.Image3Alt} className="w-full object-cover h-full object-center block rounded-lg" src={event.Image3Src} />
+                                    <Image quality="90" loading="lazy" onClick={showModal} alt={event.Image3Alt} className="w-full object-cover h-full object-center block rounded-lg" src={event.Image3Src} />
                                 </div>
                                 <div className="md:p-2 p-1 cursor-pointer w-1/2">
-                                    <Image onClick={showModal} alt={event.Image2Alt} className="w-full object-cover h-full object-center block rounded-lg" src={event.Image2Src} />
+                                    <Image quality="90" loading="lazy" onClick={showModal} alt={event.Image2Alt} className="w-full object-cover h-full object-center block rounded-lg" src={event.Image2Src} />
                                 </div>
                                 <div className="md:p-2 p-1 cursor-pointer w-full">
-                                    <Image onClick={showModal} alt={event.Image1Alt} className="w-full h-full object-cover object-center block rounded-lg" src={event.Image1Src} />
+                                    <Image quality="90" loading="lazy" onClick={showModal} alt={event.Image1Alt} className="w-full h-full object-cover object-center block rounded-lg" src={event.Image1Src} />
                                 </div>
                             </div>
                             <div className="flex flex-wrap w-full">
                                 <div className="md:p-2 p-1 cursor-pointer w-full">
-                                    <Image onClick={showModal} alt={event.Image4Alt} className="w-full h-full object-cover object-center block rounded-lg" src={event.Image4Src} />
+                                    <Image quality="90" loading="lazy" onClick={showModal} alt={event.Image4Alt} className="w-full h-full object-cover object-center block rounded-lg" src={event.Image4Src} />
                                 </div>
                                 <div className="md:p-2 p-1 cursor-pointer w-1/2">
-                                    <Image onClick={showModal} alt={event.Image5Alt} className="w-full object-cover h-full object-center block rounded-lg" src={event.Image5Src} />
+                                    <Image quality="90" loading="lazy" onClick={showModal} alt={event.Image5Alt} className="w-full object-cover h-full object-center block rounded-lg" src={event.Image5Src} />
                                 </div>
                                 <div className="md:p-2 p-1 cursor-pointer w-1/2">
-                                    <Image onClick={showModal} alt={event.Image6Alt} className="w-full object-cover h-full object-center block rounded-lg" src={event.Image6Src} />
+                                    <Image quality="90" loading="lazy" onClick={showModal} alt={event.Image6Alt} className="w-full object-cover h-full object-center block rounded-lg" src={event.Image6Src} />
                                 </div>
                             </div>
                         </div>

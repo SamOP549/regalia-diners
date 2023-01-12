@@ -142,24 +142,24 @@ const Photography = () => {
                 <div className="grid md:grid-cols-2 grid-cols-1" key={index}>
                   <div className="flex flex-wrap w-full">
                     <div className="md:p-2 p-1 w-1/2">
-                      <Image onClick={showModal} alt={set.img1Alt} className="w-full rounded-lg object-cover h-full object-center block zoom" src={set.img1Src} />
+                      <Image quality="90" loading="lazy" onClick={showModal} alt={set.img1Alt} className="w-full rounded-lg object-cover h-full object-center block zoom" src={set.img1Src} />
                     </div>
                     <div className="md:p-2 p-1 w-1/2">
-                      <Image onClick={showModal} alt={set.img2Alt} className="w-full rounded-lg object-cover h-full object-center block zoom" src={set.img2Src} />
+                      <Image quality="90" loading="lazy" onClick={showModal} alt={set.img2Alt} className="w-full rounded-lg object-cover h-full object-center block zoom" src={set.img2Src} />
                     </div>
                     <div className="md:p-2 p-1 w-full">
-                      <Image onClick={showModal} alt={set.img3Alt} className="w-full rounded-lg h-full object-cover object-center block zoom" src={set.img3Src} />
+                      <Image quality="90" loading="lazy" onClick={showModal} alt={set.img3Alt} className="w-full rounded-lg h-full object-cover object-center block zoom" src={set.img3Src} />
                     </div>
                   </div>
                   <div className="flex flex-wrap w-full">
                     <div className="md:p-2 p-1 w-full">
-                      <Image onClick={showModal} alt={set.img4Alt} className="w-full rounded-lg h-full object-cover object-center block zoom" src={set.img4Src} />
+                      <Image quality="90" loading="lazy" onClick={showModal} alt={set.img4Alt} className="w-full rounded-lg h-full object-cover object-center block zoom" src={set.img4Src} />
                     </div>
                     <div className="md:p-2 p-1 w-1/2">
-                      <Image onClick={showModal} alt={set.img5Alt} className="w-full rounded-lg object-cover h-full object-center block zoom" src={set.img5Src} />
+                      <Image quality="90" loading="lazy" onClick={showModal} alt={set.img5Alt} className="w-full rounded-lg object-cover h-full object-center block zoom" src={set.img5Src} />
                     </div>
                     <div className="md:p-2 p-1 w-1/2">
-                      <Image onClick={showModal} alt={set.img6Alt} className="w-full rounded-lg object-cover h-full object-center block zoom" src={set.img6Src} />
+                      <Image quality="90" loading="lazy" onClick={showModal} alt={set.img6Alt} className="w-full rounded-lg object-cover h-full object-center block zoom" src={set.img6Src} />
                     </div>
                   </div>
                 </div>

@@ -50,7 +50,7 @@ const Services = () => {
         <title>Services Provided - Regalia Diners</title>
         <meta name="description" content="The best event planners in Lucknow. We provide complete solutions for wedding, parties home and corporate events. Highly professional staff. We help you throw the best parties ever. Get the quote now!" />
         <meta name='keywords' content='Best wedding planner in Lucknow, Veg Caterers in Lucknow, Book the best event services in Lucknow for indoor, outdoor wedding functions, party, special occasions, corporate events with affordable price. Best rated event manager in Lucknow, Caterer for corporate events, Caterer for wedding, Caterer for birthday party, Caterer for parties, Caterer for house parties, Get quote for wedding planning, Best event planner in Lucknow' />
-        <link rel='canonical' href='https://www.regaliadiners.com' />
+        <Link rel='canonical' href='https://www.regaliadiners.com' />
         <meta name="robots" content="index, follow" />
       </Head>
       <Jumbotron title='Services' bg='/Jumbotrons/services.jpeg' />
@@ -62,7 +62,7 @@ const Services = () => {
               <section className="text-gray-600 body-font">
                 <div className={`container mx-auto flex px-8 py-24 ${index % 2 ? "md:flex-row" : "md:flex-row-reverse"} flex-col items-center`}>
                   <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0">
-                    <Image className="object-cover object-center rounded" src={hero.imageSrc} alt={hero.imageAlt} />
+                    <Image quality="90" loading="lazy" className="object-cover object-center rounded" src={hero.imageSrc} alt={hero.imageAlt} />
                   </div>
                   <div className={`lg:flex-grow md:w-1/2 ${index % 2 ? "lg:pl-24 md:pl-16" : "lg:pr-24 md:pr-16"} flex flex-col md:items-start md:text-left items-center text-center`}>
                     <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-gray-900">{hero.title}</h1>
@@ -72,7 +72,7 @@ const Services = () => {
                       {hero.desc3}
                     </p>
                     <div className="flex justify-center">
-                      <Link href={hero.btnHref}>
+                      <Link rel="preload" href={hero.btnHref}>
                         <button className="learn-more">
                           <span className="circle" aria-hidden="true">
                             <span className="icon arrow"></span>
