@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
@@ -17,6 +18,9 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <div>
+      <Head>
+        <link rel="icon" href="/regalia-logo.png" />
+      </Head>
       <Navbar />
       <Component {...pageProps} />
       <StickyIcon />

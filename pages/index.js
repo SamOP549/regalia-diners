@@ -77,7 +77,6 @@ export default function Home() {
         <link rel='canonical' href='https://www.regaliadiners.com' />
         <meta name="description" content="The best caterers in Lucknow who excel in preparing vegetarian delecacies for all cuisines. Complete catering solution for your intimate Wedding, Parties, Home and Corporate events. Devoted Chefs. Highly professional. We will help you throw the best parties ever. Get the quote now!" />
         <meta name='keywords' content='Best Caterers in Lucknow, Veg Caterers in Lucknow, Book the best vegetarian food catering services in Lucknow for indoor, outdoor wedding functions, party, special occasions, corporate events with affordable price. Get veg food menus, catering cost per plate, number of guests serve, ratings and reviews, Best rated Veg Caterers in Lucknow, Vegetarian Catering menu, Food menu for occasion, Caterer for corporate events, Caterer for wedding, Caterer for birthday party, Caterer for parties, Caterer for house parties, Get quote for wedding food menu, Book your caterer today, Best event planner in Lucknow' />
-        <link rel="icon" href="/regalia-logo.png" />
         <meta name="robots" content="index, follow" />
       </Head>
       <Jumbotron title='Home' bg='/Jumbotrons/home.jpg' />
@@ -88,7 +87,7 @@ export default function Home() {
             <section data-aos="fade-up" key={index} className="text-gray-600 body-font mb-10 mt-10">
               <div className={`container mx-auto flex md:flex-${index % 2 ? "row-reverse" : "row"} flex-col items-center`}>
                 <div className="lg:max-w-lg w-full md:mb-0 mb-8">
-                  <Image quality="90" loading="lazy" className="rounded" src={section.imageSrc} height="632" width="632" objectFit="cover" alt={section.imageAlt} />
+                  <Image quality="90" priority className="rounded" src={section.imageSrc} height="632" width="632" objectFit="cover" alt={section.imageAlt} />
                 </div>
                 <div className="lg:flex-grow md:w-1/2 lg:px-20 sm:px-12 px-12 flex flex-col text-center items-center">
                   <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-gray-900">{section.title}</h1>
