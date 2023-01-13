@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import Image from 'next/dist/client/image';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

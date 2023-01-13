@@ -75,7 +75,7 @@ const Menu = () => {
                 </div>
             </section>
             <div className='book-btn-container flex items-center justify-center mb-10 mt-10'>
-                <a href='https://api.whatsapp.com/send?phone=+918874247420&text=Hi, I would like to enquire and get quote for my event.' rel="noopener noreferrer" target='_blank'><button className='book-btn'><span className="text"><h4>Get Quote!</h4></span><span><h4>Thanks!</h4></span></button></a>
+                <a href='https://api.whatsapp.com/send?phone=+918874247420&text=Hi, I would like to enquire and get quote for my event.' rel="noopener noreferrer" target='_blank'><button className='book-btn'><span className="text"><p>Get Quote!</p></span><span><p>Thanks!</p></span></button></a>
             </div>
             <div data-aos="zoom-in-left" className="flex items-center justify-center mx-auto px-4 py-16 text-justify">
                 <h1 className="title-font md:text-5xl sm:text-4xl text-3xl mb-4 text-gray-900 text-center decorate">Not satisfied with the above menu?</h1>

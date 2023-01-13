@@ -10,7 +10,7 @@ const Footer = ({ pathname }) => {
             {
                 pathname != '/services/catering' &&
                 <div className='book-btn-container flex items-center justify-center mb-10 mt-10'>
-                    <a href='https://api.whatsapp.com/send?phone=+918874247420&text=Hi, I would like to enquire and get quote for my event.' rel="noopener noreferrer" target='_blank'><button className='book-btn'><span className="text"><h4>Get Quote!</h4></span><span><h4>Thanks!</h4></span></button></a>
+                    <a href='https://api.whatsapp.com/send?phone=+918874247420&text=Hi, I would like to enquire and get quote for my event.' rel="noopener noreferrer" target='_blank'><button className='book-btn'><span className="text"><p>Get Quote!</p></span><span><p>Thanks!</p></span></button></a>
                 </div>
             }
             <footer className="text-white body-font bg-black">

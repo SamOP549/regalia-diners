@@ -84,13 +84,13 @@ export default function Home() {
       {
         heros.map((section, index) => {
           return (
-            <section data-aos="fade-up" key={index} className="text-gray-600 body-font mb-10 mt-10">
+            <section data-aos="fade-up" key={index} className="text-gray-800 body-font mb-10 mt-10">
               <div className={`container mx-auto flex md:flex-${index % 2 ? "row-reverse" : "row"} flex-col items-center`}>
                 <div className="lg:max-w-lg w-full md:mb-0 mb-8">
-                  <Image quality="90" priority className="rounded" src={section.imageSrc} height="632" width="632" objectFit="cover" alt={section.imageAlt} />
+                  <Image quality="90" priority className="rounded" src={section.imageSrc} alt={section.imageAlt} />
                 </div>
                 <div className="lg:flex-grow md:w-1/2 lg:px-20 sm:px-12 px-12 flex flex-col text-center items-center">
-                  <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-gray-900">{section.title}</h1>
+                  <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-black">{section.title}</h1>
                   <p className="sm:text-xl text-sm mb-8 leading-relaxed">{section.desc}</p>
                   <div className="flex justify-center">
                   </div>
@@ -137,7 +137,7 @@ export default function Home() {
             {
               events.map((event, index) => {
                 return (
-                  <div data-aos="flip-up" key={index} className="flex rounded-lg  justify-center xl:w-1/4 md:w-1/2 p-6">
+                  <div data-aos="flip-left" key={index} className="flex rounded-lg  justify-center xl:w-1/4 md:w-1/2 p-6">
                     <div className="rounded-lg shadow-lg bg-white max-w-md card">
                       <Image quality="90" loading="lazy" className="rounded-t-lg" src={event.imageSrc} alt={event.imageAlt} />
                       <div className="p-6">
