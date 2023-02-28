@@ -15,7 +15,7 @@ const About = () => {
         <section data-aos="fade-up" className="mb-32 text-gray-800">
             <div className="flex flex-wrap items-center">
               <div className="hidden lg:flex grow-0 shrink-0 basis-auto lg:w-6/12 xl:w-4/12">
-                <Image quality="90" loading="lazy" src={aboutimg}
+                <Image quality="90" priority src={aboutimg}
                   className="w-full" alt="about" />
               </div>
               <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">

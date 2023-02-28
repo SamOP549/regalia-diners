@@ -17,7 +17,7 @@ const Footer = ({ pathname }) => {
                 <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-center md:flex-row md:flex-nowrap flex-wrap flex-col">
                     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-center typewriter">
                         <Link rel="preload" href='/' className="flex title-font font-medium items-center  justify-center">
-                            <Image quality="90" loading="lazy" src='/regalia-logo.png' width="150" height="134" alt="footerLogo" />
+                            <Image quality="90" priority src='/regalia-logo.png' width="150" height="134" alt="footerLogo" />
                         </Link>
                         <h4 style={{ color: "#DAA520" }} className="mt-2 text-lg text-white">...where feast begins</h4>
                     </div>

@@ -35,7 +35,7 @@ const Navbar = () => {
     >
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
         <Link rel="preload" href='/'>
-          <Image quality="90" loading="lazy" className='cursor-pointer' src='/regalia-logo.png' width="97" height="87" alt="navbarLogo" />
+          <Image quality="90" priority className='cursor-pointer' src='/regalia-logo.png' width="97" height="87" alt="navbarLogo" />
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4 text-lg'>

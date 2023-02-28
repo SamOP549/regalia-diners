@@ -12,7 +12,7 @@ const Jumbotron = (props) => {
                 <div className="flex justify-center items-center h-full">
                     <div className="text-white">
                         {
-                            props.title === 'Home' ? <Image quality="90" loading="lazy" src='/homehero.png' width="618" height="462" alt="heroBackdrop" /> : <h1 className="font-semibold sm:text-5xl text-4xl mb-4 jumbotron-title">{props.title}</h1>
+                            props.title === 'Home' ? <Image quality="90" priority src='/homehero.png' width="618" height="462" alt="heroBackdrop" /> : <h1 className="font-semibold sm:text-5xl text-4xl mb-4 jumbotron-title">{props.title}</h1>
                         }
                     </div>
                 </div>
